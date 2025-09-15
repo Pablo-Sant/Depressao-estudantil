@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# =========================
+# Virtual Environments
+# =========================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# IDEs / Editores
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs & Outputs
+# =========================
+*.log
+*.out
+*.err
+
+# =========================
+# Data (raw e intermediários)
+# =========================
+/data/raw/*
+/data/interim/*
+/data/external/*
+
+# Permite manter uma pasta vazia (coloca .gitkeep dentro se quiser versionar a estrutura)
+!data/.gitkeep
+
+# =========================
+# Modelos treinados / Pesados
+# =========================
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.ckpt
+
+# =========================
+# Configs locais / Senhas
+# =========================
+*.env
+config.json
+secrets.json
+token.json
