@@ -7,3 +7,4 @@ matplotlib
 tensorflow
 yellowbrick
 plotly
+scipy
