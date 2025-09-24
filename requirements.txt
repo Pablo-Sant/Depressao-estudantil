@@ -8,3 +8,4 @@ tensorflow
 yellowbrick
 plotly
 scipy
+xgboost
